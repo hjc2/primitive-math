@@ -1,8 +1,12 @@
 
+def increment(x):
+    """increments a number"""
+    return(x + 1)
+
 def add(x, y):
     """adds two numbers"""
     if(y > 0):
-        return(1 + add(x, y - 1))
+        return(increment(add(x, y - 1)))
     else:
         return(x)
 
