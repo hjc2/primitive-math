@@ -23,7 +23,7 @@ def add(x, y):
 
 def multiply(x, y):
     """multiplies two numbers \n
-    f(x) = x * y
+    f(x) = x * y 
     """
     if(y > 1):
         return(add(x, multiply(x, y - 1)))
