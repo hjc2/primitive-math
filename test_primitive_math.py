@@ -2,6 +2,7 @@
 import pytest
 import primitive_math
 
+
 @pytest.mark.parametrize("test_x, expected", [(3, 4), (5, 6), (12, 13), (56, 57)])
 def test_increment(test_x, expected):
     assert(primitive_math.increment(test_x) == expected)
