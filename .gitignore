@@ -1,2 +1,4 @@
 
 __pycache__/test_primitive_math.cpython-39-pytest-6.2.5.pyc
+**/__pycache__
+**/.pytest_cache
