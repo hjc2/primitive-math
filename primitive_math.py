@@ -3,6 +3,11 @@ def increment(x):
     """increments a number"""
     return(x + 1)
 
+def decrement(x):
+    """decrements a number \n 
+    f(x) = x - 1"""
+    return(x - 1)
+
 def add(x, y):
     """adds two numbers"""
     if(y > 0):
