@@ -1,2 +1,2 @@
-# primitive-math [![Python application](https://github.com/hjc2/primitive-math/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/hjc2/primitive-math/actions/workflows/python-app.yml)
+# primitive-math [![Python application](https://github.com/hjc2/primitive-math/actions/workflows/python-app.yml/badge.svg?branch=master)](https://github.com/hjc2/primitive-math/actions/workflows/python-app.yml) [![Pylint](https://github.com/hjc2/primitive-math/actions/workflows/pylint.yml/badge.svg?branch=master)](https://github.com/hjc2/primitive-math/actions/workflows/pylint.yml)
 math made from the ground up
