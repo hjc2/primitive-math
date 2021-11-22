@@ -31,3 +31,7 @@ def power(x, y):
     """takes the power of a number \n
     f(x) = x^y
     """
+    if(y >= 1):
+        return(multiply(x, power(x, y - 1)))
+    if(y == 0):
+        return(1)

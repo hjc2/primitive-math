@@ -19,3 +19,8 @@ def test_add(test_x, test_y, expected):
 
 def test_multiply(test_x, test_y, expected):
     assert(primitive_math.multiply(test_x, test_y) == expected)
+    
+@pytest.mark.parametrize("test_x, test_y ,expected", [(4, 3, 64), (2, 3, 8), (7,2,49), (5, 3, 125)])
+
+def test_power(test_x, test_y, expected):
+    assert(primitive_math.power(test_x, test_y) == expected)
