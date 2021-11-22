@@ -6,7 +6,7 @@ def increment(x):
 
 
 def decrement(x):
-    """decrements a number \n 
+    """decrements a number \n
     f(x) = x - 1"""
     return x - 1
 
@@ -23,7 +23,7 @@ def add(x, y):
 
 def multiply(x, y):
     """multiplies two numbers \n
-    f(x) = x * y 
+    f(x) = x * y
     """
     if y > 1:
         return(add(x, multiply(x, y - 1)))
